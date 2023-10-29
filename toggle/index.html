@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div id="Background">
+        <div id="Box">
+            <div id="BtnBg">
+                <div id="DivBtn">
+                    <div id="Btn"></div>
+                        <button id="Loginbtn" onclick="Login()">Login</button>
+                        <button id="Registerbtn" onclick="Register()">Register</button>
+                    
+                </div>
+            </div>
+            <form action="" id="FormLogin" onsubmit="return form1()" class="form-group">
+                <label for="">Username</label>
+                <input type="text" id="uname" class="form-control">
+                <h6 id="unameh6"></h6>
+                <label for="">Password</label>
+                <input type="password" id="pass" class="form-control">
+                <h6 id="passh6"></h6>
+                <br>
+                <button class="btn btn-success">Login</button>
+                <h6 id="btnh6"></h6>
+            </form>
+            <form action="" id="FormRegister" class="form-group " >
+                <label for="">FirstName</label>
+                <input type="text" class="form-control">
+                <label for="">LastName</label>
+                <input type="text" class="form-control">
+                
+                <label for="">Email id</label>
+                <input type="text" class="form-control">
+                
+                <label for="">Password</label>
+                <input type="text" class="form-control">
+                
+                <label for="">Confirm Password</label>
+                <input type="password" class="form-control">
+                
+                <button class="btn btn-success">Register</button>
+
+            </form>
+
+        </div>
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

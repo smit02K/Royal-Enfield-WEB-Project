@@ -1,0 +1,107 @@
+body{
+    background-color: lavender;
+    
+}
+
+
+#Box{
+    background-color: white;
+    width: 600px;
+    height: 700px;
+    margin: 83px 0px 0px 28%;
+    overflow: hidden;
+}
+
+#DivBtn button{
+    font-size: 17px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background: transparent;
+    border: 0;
+    position: relative;
+}
+
+#DivBtn{
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0px 0px 20px rgb(231, 89, 231);
+    border-radius: 15px;
+    position: relative;
+}
+
+#BtnBg{
+    padding: 30px 0px;
+    text-align: center;
+}
+
+#Btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgb(231, 87, 231),plum);
+    border-radius: 15px;
+    height: 46px;
+    width: 100px;
+    transition: 0.5s;
+}
+
+#FormLogin label{
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+#FormLogin{
+    margin: 0px 40px;
+    /* font-size: 25px;
+    margin-top: 30px;
+    margin-left: 55px;
+    margin-right: 55px; */
+    position: relative;
+    left: 0px;
+    transition: 1s;
+}
+
+#FormLogin input{
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+#FormLogin Button{
+    font-size: 20px;
+    padding: 7px 40px;
+    /* margin-left: 37%; */
+    margin: 20px 0px 0px 36%;
+
+}
+
+
+#FormRegister label{
+    font-size: 18px;
+    margin-bottom: 5px;
+    
+}
+#FormRegister{
+    margin: 0px 40px;
+    /* font-size: 25px;
+    margin-top: 30px;
+    margin-left: 55px;
+    margin-right: 55px; */
+    position: relative;
+    top: -340px;
+    left: 580px;
+    transition: 1s;
+}
+
+#FormRegister input{
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+
+#FormRegister Button{
+    font-size: 20px;
+    padding: 7px 40px;
+    /* margin-left: 37%;
+    margin-top: 34px; */
+    margin: 15px 0px 0px 29%;
+
+}
